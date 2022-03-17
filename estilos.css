@@ -119,7 +119,11 @@
         transform: scale(1.1, 1.1);
     }
     .reiki{
+<<<<<<< HEAD
         background-image: url(/fotos/reiki.jpg);
+=======
+        background-image: url(./fotos/reiki.jpg);
+>>>>>>> c5f37a0af72479722ff4ed6ed7eec2e7ec87d21d
         background-size:100%;
         border-top-left-radius: 70px;
         transition:all 1s ease;
