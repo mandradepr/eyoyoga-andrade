@@ -1,0 +1,586 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;   
+    }
+    .barra{
+        background-color: rgba(255, 255, 255, 0.9);
+        display: flex;
+        align-items: center;
+        padding: 1px;
+        position:fixed;
+        z-index: 1;
+        justify-content:flex-end;
+        width: 100%;
+    }
+    .logo{
+        margin-left: 5rem;
+    }
+    .principal{
+        font-family: 'Annie Use Your Telescope', cursive;
+        color: black;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .barra ul{
+        display:flex;
+        list-style: none;
+        gap: 0.5em;
+        margin-left:43rem;
+    }
+    .barra ul li{
+        font-size: 1.2rem;
+        color:black;
+    }
+    .barra ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .barra ul li:hover a{
+        color:rgb(133, 217, 245);
+        text-decoration:underline;  
+        text-align: center;
+    }
+    .encabezado{
+        background-image: url(/fotos/number22.jpg);
+        background-size:cover;
+        height: 100vh;
+    }
+    .titulo{
+        padding: 10px;
+        margin: 40px;
+        text-align: center;
+        animation-duration: 10s;
+        animation-name: animame;
+        animation-iteration-count:infinite;
+    }
+    @keyframes animame {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+    .anime{
+        animation-duration: 10s;
+        animation-name: animame;
+        animation-iteration-count:infinite;
+    }
+    .recuadro{
+        width: 100%;
+     
+        display: flex;
+        flex-wrap: nowrap;  
+        justify-content:space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .caja{
+        width: 18rem;
+        height: 60vh;
+        border-style:solid;
+        text-align: center;
+        border-color:dodgerblue;
+        opacity: .8;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .meditacion{
+        background-image: url(/fotos/meditacion.jpg);
+        background-size:cover;
+        border-start-end-radius: 70px;
+        transition:all 1s ease;
+    }
+    .meditacion:hover{
+        transform:scale(1.1, 1.1);
+    }
+    .yoga{
+        background-image: url(/fotos/yogaa.jpg);
+        background-size: cover;
+        border-top-left-radius: 70px;
+        transition:all 1s ease;
+    }
+    .yoga:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .masajes{
+        background-image: url(/fotos/masaje.jpg);
+        background-size:cover;
+        border-start-end-radius: 70px;
+        transition:all 1s ease;
+    }
+    .masajes:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .reiki{
+        background-image: url(/fotos/reiki.jpg);
+        background-size:cover;
+        border-top-left-radius: 70px;
+        transition:all 1s ease;
+    }
+    .reiki:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .caja:hover{
+        opacity: 1;
+        border-radius: 50px;
+        border-color: darkslategray;
+    }
+    .contenedor{
+        width: 85%;
+        height:55vh;
+        text-align: center;
+        margin: 40px auto;
+        font-size: 15px;
+
+
+        display:grid;
+        grid-template-columns: 1.5fr 2fr;
+        grid-template-rows: 450px;
+    }
+    .hijo{
+        background: rgb(255,204,226);
+        width: 100%;
+        margin: 16px auto;
+        height: 90.5%;
+
+    }
+    .eter{
+        margin: 0px 30px 50px 30px;
+    }
+    .contenedorr{
+        width: 85%;
+        height: 100%;
+        text-align: center;
+        margin:auto;
+        font-size: 15px;
+
+
+        display:grid;
+        grid-template-columns: 1.5fr 2fr;
+        grid-template-rows: 1fr;
+    }
+    .metodo{
+        background: white;
+    }
+    .clases{
+        background-color: rgb(255, 255, 255);
+        
+    }
+    h2{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Merienda', cursive;
+    }
+    h3{
+        font-family: 'Merienda', cursive;
+    }
+    .tipos{
+        color:rgb(47, 58, 55);
+    }
+    .contenedor1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgb(122, 148, 140);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 842px 900px;
+    }
+    .hijo1{
+        margin: 100px 100px 0px 60px;
+        line-height: 25px;
+        color:rgb(255,204,226);
+    }
+    .hijo2{
+        margin: 40px 40px 0px 50px;
+        line-height: 25px;
+        color:rgb(255,204,226);
+    }
+    
+    .contenedor2{
+        width: 100%;
+        margin:auto;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        background: rgb(106, 165, 170);
+        background: linear-gradient(0deg, rgb(109, 141, 145) 5%, rgba(255,204,232,1) 82%);
+        grid-template-rows: 1fr 0,5fr 1fr 1fr;
+        grid-template-areas: 
+        "primero primero primero"
+        "postura1 postura2 postura3"
+        "tpostura1 tpostura2 tpostura3"
+        "reflexion reflexion reflexion";
+    }
+    .hijo3{
+        line-height: 25px;
+    }
+    .primero{
+        grid-area: primero;
+    }
+    .postura1{
+        grid-area: postura1;
+        transition: all 1s ease-out;
+    }
+    .postura1:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .postura2{
+        grid-area: postura2;
+        transition: all 1s ease-out;
+    }
+    .postura2:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .postura3{
+        grid-area: postura3;
+        transition: all 1s ease-out;
+    }
+    .postura3:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .tpostura1{
+        grid-area: tpostura1;
+        margin: 0px 50px 50px 50px;
+    }
+    .tpostura2{
+        grid-area: tpostura2;
+        margin: 0px 50px 50px 50px;
+        
+    }
+    .tpostura3{
+        grid-area: tpostura3;
+        margin: 0px 50px 50px 50px;
+    }
+    .reflexion{
+        grid-area: reflexion;
+        text-align: center;
+        margin: 0px 50px 50px 50px;
+    }
+    p{
+        color:azure ;
+    }   
+    footer{
+        background: rgb(107, 146, 150);
+        color: rgb(10, 10, 10);
+        text-align: center;
+        padding: 20px;
+    }
+    .video{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 90px;
+        background: rgb(106, 165, 170);
+        background: linear-gradient(0deg, rgb(109, 141, 145) 5%, rgba(255,204,232,1) 82%);
+        justify-items: center;
+    }
+
+    .service{
+        width: 100%;
+        margin:auto;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        background: rgb(106, 165, 170);
+        background: linear-gradient(0deg, rgb(109, 141, 145) 5%, rgba(255,204,232,1) 82%);
+        grid-template-rows: 0fr 1fr 0fr;
+        grid-template-areas: 
+        "tex0 tex0 tex0"
+        "first second thirt"
+        "tex1 tex2 tex3";
+    }
+    .tex0{
+        grid-area: tex0;
+        margin: 40px 25px 25px 25px;
+        line-height: 30px;
+    }
+    .first{
+        grid-area: first;
+        transition: all 1s ease-out;
+    }
+    .first:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .second{
+        grid-area: second;
+        transition: all 1s ease-out;
+    }
+    .second:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .thirt{
+        grid-area: thirt;
+        transition: all 1s ease-out;
+    }
+    .thirt:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .tex1{
+        grid-area: tex1;
+        margin: 15px 15px 15px 15px;
+        line-height: 25px;
+    }
+    .tex2{
+        grid-area: tex2;
+        margin: 15px 15px 15px 15px;
+        line-height: 25px;   
+    }
+    .tex3{
+        grid-area: tex3;
+        margin: 15px 15px 15px 15px;
+        line-height: 25px;
+    }
+
+    .postura1{
+        grid-area: postura1;
+        transition: all 1s ease-out;
+    }
+    .postura1:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .postura2{
+        grid-area: postura2;
+        transition: all 1s ease-out;
+    }
+    .postura2:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .postura3{
+        grid-area: postura3;
+        transition: all 1s ease-out;
+    }
+    .postura3:hover{
+        transform: scale(1.1, 1.1);
+    }
+    .tpostura1{
+        grid-area: tpostura1;
+        margin: 0px 50px 50px 50px;
+    }
+    .tpostura2{
+        grid-area: tpostura2;
+        margin: 0px 50px 50px 50px;
+        
+    }
+    .tpostura3{
+        grid-area: tpostura3;
+        margin: 0px 50px 50px 50px;
+    }
+    .reflexion{
+        grid-area: reflexion;
+        text-align: center;
+        margin: 0px 50px 50px 50px;
+    }
+    .form{
+        text-align: center;
+    }
+    @media screen and (max-width:900px){
+        .contenedor1{
+            height: 215vh;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 520px 550px;
+
+        }
+        .hijo1{
+            margin: 70px 20px 20px 20px;
+        }
+        .hijo2{
+            margin: 20px 20px 20px 20px;
+        }
+        .contenedor2{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0fr 0fr 0fr 0fr ;
+            grid-template-areas: 
+            "primero primero"
+            "postura1 tpostura1"
+            "postura2 tpostura2"
+            "postura3 tpostura3"
+            "reflexion reflexion";
+        }
+        .tpostura1{
+            margin: 0px 50px 0px 0px;
+        }
+        .tpostura2{
+            margin: 0px 50px 0px 0px;
+        }
+        .tpostura3{
+            margin: 0px 50px 0px 0px;
+        }
+        .reflexion{
+            margin: 50px 50px 50px 50px;
+        }
+        .barra{
+            margin: 0px 0px 0px 0px;
+        }
+        
+    }
+
+    .tex0{
+        margin: 10px 65px 5px 5px;
+    }
+    .tex1{
+        margin:0px 5px 5px 5px;
+    }
+    .tex2{
+        margin: 5px 5px 5px 5px;
+    }
+    .tex3{
+        margin: 5px 5px 5px 5px;
+    }
+    @MEDIA screen and (max-width:768px){
+        .contenedor{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 2fr;
+            width: 100%;
+            height:120vh;
+            text-align: center;
+            margin: 1px auto;
+        }
+        .contenedorr{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 100%;
+            height:135vh;
+            text-align: center;
+            margin: 1px auto;
+        }
+        .contenedor1{
+            height: 450vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0fr 1fr 1fr 950px;
+            
+        }
+        .hijo1{
+            margin: 40px 40px 40px 40px;
+        }
+        .hijo2{
+            margin: 40px 40px 40px 40px;
+
+        }
+        .contenedor2{
+            grid-template-columns: 1fr;
+            grid-template-rows: 20px 210px 210px 210px 220px 215px 250px 350px;
+            grid-template-areas: 
+            "primero"
+            "postura1"  
+            "tpostura1"
+            "postura2"
+            "tpostura2"
+            "postura3"
+            "tpostura3"
+            "reflexion";
+        }
+        .tpostura1{
+            margin: 50px 50px 50px 50px;
+        }
+        .tpostura2{
+            margin:50px 50px 50px 50px;
+        }
+        .tpostura3{
+            margin:0px 50px 50px 50px;
+        }
+        .reflexion{
+            margin: 50px 50px 50px 50px;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .service{
+            grid-template-columns: 1fr;
+            grid-template-rows: 130px 370px 160px 360px 170px 370px 1fr;
+            grid-template-areas: 
+            "tex0"
+            "first"
+            "tex1"
+            "second"
+            "tex2"
+            "thirt"
+            "tex3";
+        }
+        .tex0{
+            margin: 10px 5px 5px 5px;
+        }
+        .first{
+            margin:5px 5px 5px 5px;
+        }
+        .second{
+            margin:0px 5px 5px 5px;
+        }
+        .thirt{
+            margin: 5px 5px 5px 5px;
+        }
+    } 
+    @media screen and (max-width:320px){
+        .contenedor1{
+            height: 510vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0fr 300px 270px 650px;
+            
+        }
+        .hijo1{
+            margin: 40px 40px 40px 40px;
+        }
+        .hijo2{
+            margin: 40px 40px 40px 40px;
+        }
+        .iframe{
+            width: 100%;
+
+        }  
+    }
+
+    @media screen and (max-width: 480px){
+        .contenedor2{
+            grid-template-columns: 1fr;
+            grid-template-rows: 50px 100px 400px 150px 330px 200px 400px 475px;
+            grid-template-areas: 
+            "primero"
+            "postura1"
+            "tpostura1"
+            "postura2"
+            "tpostura2"
+            "postura3"
+            "tpostura3"
+            "reflexion";
+        }
+        .tpostura1{
+            margin: 100px 50px 50px 50px;
+        }
+        .tpostura2{
+            margin:50px 50px 50px 50px;
+        }
+        .tpostura3{
+            margin:0px 50px 50px 50px;
+        }
+        .reflexion{
+            margin: 50px 50px 50px 50px;
+        }
+    } 
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+     
+
