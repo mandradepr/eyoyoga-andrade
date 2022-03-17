@@ -45,7 +45,7 @@
         text-align: center;
     }
     .encabezado{
-        background-image: url(/fotos/number22.jpg);
+        background-image: url(./fotos/number22.jpg);
         background-size:cover;
         height: 100vh;
     }
