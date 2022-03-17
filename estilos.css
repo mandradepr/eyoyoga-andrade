@@ -46,7 +46,7 @@
     }
     .encabezado{
         background-image: url(./fotos/number22.jpg);
-        background-size:cover;
+        background-size:100%;
         height: 100vh;
     }
     .titulo{
@@ -92,8 +92,8 @@
         flex-direction:column-reverse;
     }
     .meditacion{
-        background-image: url(/fotos/meditacion.jpg);
-        background-size:cover;
+        background-image: url(./fotos/meditacion.jpg);
+        background-size:100%;
         border-start-end-radius: 70px;
         transition:all 1s ease;
     }
@@ -101,8 +101,8 @@
         transform:scale(1.1, 1.1);
     }
     .yoga{
-        background-image: url(/fotos/yogaa.jpg);
-        background-size: cover;
+        background-image: url(./fotos/yogaa.jpg);
+        background-size: 100%;
         border-top-left-radius: 70px;
         transition:all 1s ease;
     }
@@ -110,8 +110,8 @@
         transform: scale(1.1, 1.1);
     }
     .masajes{
-        background-image: url(/fotos/masaje.jpg);
-        background-size:cover;
+        background-image: url(./fotos/masaje.jpg);
+        background-size:100%;
         border-start-end-radius: 70px;
         transition:all 1s ease;
     }
@@ -120,7 +120,7 @@
     }
     .reiki{
         background-image: url(/fotos/reiki.jpg);
-        background-size:cover;
+        background-size:100%;
         border-top-left-radius: 70px;
         transition:all 1s ease;
     }
