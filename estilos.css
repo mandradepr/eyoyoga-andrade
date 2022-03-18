@@ -6,8 +6,16 @@
     body{
         font-family: 'Poppins', sans-serif;   
     }
+    .carousel-control-next{
+        z-index: 1;
+        margin-top: 100px;    
+    }
+    .carousel-control-prev-icon{
+        z-index: 1;
+        margin-top: 100px;    
+    }
     .barra{
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.6);
         display: flex;
         align-items: center;
         padding: 1px;
@@ -28,7 +36,7 @@
     .barra ul{
         display:flex;
         list-style: none;
-        gap: 0.5em;
+        gap: 0.5rem;
         margin-left:43rem;
     }
     .barra ul li{
@@ -45,9 +53,10 @@
         text-align: center;
     }
     .encabezado{
-        background-image: url(./fotos/number22.jpg);
+        background: rgb(106, 165, 170);
+        background: linear-gradient(0deg, rgb(109, 141, 145) 5%, rgba(255,204,232,1) 82%);
         background-size:100%;
-        height: 100vh;
+
     }
     .titulo{
         padding: 10px;
@@ -301,7 +310,7 @@
     }
     .tex0{
         grid-area: tex0;
-        margin: 40px 25px 25px 25px;
+        margin: 20px 25px 25px 25px;
         line-height: 30px;
     }
     .first{
