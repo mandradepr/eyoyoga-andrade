@@ -317,13 +317,16 @@
     .first{
         grid-area: first;
         transition: all 1s ease-out;
+        margin: 25px 25px 25px 25px
     }
     .first:hover{
         transform: scale(1.1, 1.1);
+        
     }
     .second{
         grid-area: second;
         transition: all 1s ease-out;
+        margin: 25px 25px 25px 25px
     }
     .second:hover{
         transform: scale(1.1, 1.1);
@@ -331,6 +334,7 @@
     .thirt{
         grid-area: thirt;
         transition: all 1s ease-out;
+        margin: 25px 25px 25px 25px
     }
     .thirt:hover{
         transform: scale(1.1, 1.1);
@@ -478,7 +482,7 @@
         }
         .contenedor2{
             grid-template-columns: 1fr;
-            grid-template-rows: 20px 210px 210px 210px 220px 215px 250px 350px;
+            grid-template-rows: 20px 210px 210px 210px 220px 215px 250px 450px;
             grid-template-areas: 
             "primero"
             "postura1"  
@@ -505,7 +509,7 @@
     @media screen and (max-width: 700px){
         .service{
             grid-template-columns: 1fr;
-            grid-template-rows: 130px 370px 160px 360px 170px 370px 1fr;
+            grid-template-rows: 165px 470px 150px 390px 160px 490px 100px;
             grid-template-areas: 
             "tex0"
             "first"
@@ -519,38 +523,22 @@
             margin: 10px 5px 5px 5px;
         }
         .first{
-            margin:5px 5px 5px 5px;
+            margin:auto;
+            width: 70%;
         }
         .second{
-            margin:0px 5px 5px 5px;
+            margin:auto;
+            width: 79%;
         }
         .thirt{
-            margin: 5px 5px 5px 5px;
+            margin: auto;
+            width: 70%;
         }
     } 
-    @media screen and (max-width:320px){
-        .contenedor1{
-            height: 510vh;
-            grid-template-columns: 1fr;
-            grid-template-rows: 0fr 300px 270px 650px;
-            
-        }
-        .hijo1{
-            margin: 40px 40px 40px 40px;
-        }
-        .hijo2{
-            margin: 40px 40px 40px 40px;
-        }
-        .iframe{
-            width: 100%;
-
-        }  
-    }
-
     @media screen and (max-width: 480px){
         .contenedor2{
             grid-template-columns: 1fr;
-            grid-template-rows: 50px 100px 400px 150px 330px 200px 400px 475px;
+            grid-template-rows: 50px 100px 400px 150px 330px 200px 400px 595px;
             grid-template-areas: 
             "primero"
             "postura1"
@@ -573,10 +561,49 @@
         .reflexion{
             margin: 50px 50px 50px 50px;
         }
+        .service{
+            grid-template-columns: 1fr;
+            grid-template-rows: 85px 470px 150px 320px 180px 370px 155px;
+            grid-template-areas: 
+            "tex0"
+            "first"
+            "tex1"
+            "second"
+            "tex2"
+            "thirt"
+            "tex3";
+        }
     } 
-
-
-
+    @media screen and (max-width:320px){
+        .contenedor1{
+            height: 510vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0fr 300px 270px 650px;
+            
+        }
+        .hijo1{
+            margin: 40px 40px 40px 40px;
+        }
+        .hijo2{
+            margin: 40px 40px 40px 40px;
+        }
+        .iframe{
+            width: 100%;
+        }  
+        .service{
+            grid-template-columns: 1fr;
+            grid-template-rows: 155px 270px 210px 250px 250px 270px 205px;
+            grid-template-areas: 
+            "tex0"
+            "first"
+            "tex1"
+            "second"
+            "tex2"
+            "thirt"
+            "tex3";
+        }
+    }
+           
 
 
 
