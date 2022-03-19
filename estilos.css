@@ -214,7 +214,11 @@
         line-height: 25px;
         color:rgb(255,204,226);
     }
-    
+    .for{
+        background: rgb(106, 165, 170);
+        background: linear-gradient(0deg, rgba(255,204,232,1) , rgb(109, 141, 145) 5% 82%);
+        text-align: center;
+    }
     .contenedor2{
         width: 100%;
         margin:auto;
