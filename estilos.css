@@ -593,9 +593,10 @@
             "tex3";
         }
         .contenedor1{
-            height: 375vh;
+            height: 370vh;
             grid-template-columns: 1fr;
-            grid-template-rows: 670px 400px 410px 100px;
+            grid-template-rows: 620px 450px 525px 250px;
+ 
 
         }
         .hijo1{
