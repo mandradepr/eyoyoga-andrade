@@ -595,7 +595,7 @@
         .contenedor1{
             height: 350vh;
             grid-template-columns: 1fr;
-            grid-template-rows: 620px 450px 525px 250px;
+            grid-template-rows: 620px 450px 525px 120px;
  
 
         }
@@ -608,7 +608,7 @@
     } 
     @media screen and (max-width:320px){
         .contenedor1{
-            height: 435vh;
+            height: 400vh;
             grid-template-columns: 1fr;
             grid-template-rows: 0fr 300px 320px 650px;
             
