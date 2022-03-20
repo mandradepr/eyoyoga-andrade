@@ -83,7 +83,6 @@
     }
     .recuadro{
         width: 100%;
-     
         display: flex;
         flex-wrap: nowrap;  
         justify-content:space-evenly;
@@ -509,6 +508,22 @@
         .reflexion{
             margin: 50px 50px 50px 50px;
         }
+        .meditacion{
+            margin: 0px 25px 25px 25px;
+        }
+        .yoga{
+            margin: 0px 25px 25px 25px;
+        }
+        .masajes{
+            margin: 0px 25px 25px 25px;
+        }
+        .reiki{
+            margin: 0px 25px 0px 25px;
+        }
+        .contenedor{
+            margin: 0px 0px 0px 0px;
+            height: 700px;
+        }
     }
     @media screen and (max-width: 700px){
         .service{
@@ -577,12 +592,24 @@
             "thirt"
             "tex3";
         }
+        .contenedor1{
+            height: 375vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: 670px 400px 410px 100px;
+
+        }
+        .hijo1{
+            margin: 70px 20px 20px 20px;
+        }
+        .hijo2{
+            margin: 20px 20px 20px 20px;
+        }
     } 
     @media screen and (max-width:320px){
         .contenedor1{
-            height: 510vh;
+            height: 440vh;
             grid-template-columns: 1fr;
-            grid-template-rows: 0fr 300px 270px 650px;
+            grid-template-rows: 0fr 300px 320px 650px;
             
         }
         .hijo1{
@@ -606,6 +633,23 @@
             "thirt"
             "tex3";
         }
+        .meditacion{
+            margin: 0px 25px 25px 25px;
+        }
+        .yoga{
+            margin: 0px 25px 25px 25px;
+        }
+        .masajes{
+            margin: 0px 25px 25px 25px;
+        }
+        .reiki{
+            margin: 0px 25px 0px 25px;
+        }
+        .contenedor{
+            margin: 0px 0px 0px 0px;
+            height: 700px;
+        }
+        
     }
            
 
